@@ -1,0 +1,29 @@
+body,
+html {
+  height: 100%;
+}
+
+body {
+  font-size: 15px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  background-color: hsl(212, 45%, 89%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  max-width: 320px;
+  border-radius: 20px;
+  box-shadow: 15px 15px 25px 0px rgba(0, 0, 0, 0.05);
+}
+.card h4 {
+  font-size: 22px;
+}
+.card p {
+  color: hsl(220, 15%, 55%);
+}
+.card .card-img-top {
+  border-radius: 10px;
+}/*# sourceMappingURL=styles.css.map */
